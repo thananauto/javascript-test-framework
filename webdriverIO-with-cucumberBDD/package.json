@@ -38,7 +38,7 @@
     "grunt": "^0.4.5",
     "grunt-webdriver": "^1.0.0",
     "junit-viewer": "^4.11.1",
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.15",
     "node-excel-to-json": "0.0.3",
     "node-inspector": "^1.1.1",
     "underscore": "^1.8.3",
