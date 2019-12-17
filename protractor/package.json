@@ -1,0 +1,22 @@
+{
+  "name": "protractor-js",
+  "version": "1.0.0",
+  "description": "this is sample project for protractor",
+  "main": "config/config.js",
+  "scripts": {
+    "setup": "webdriver-manager update && webdriver-manager start",
+    "test": "protractor config/config.js"
+  },
+  "keywords": [
+    "protractor",
+    "selenium-webdriverjs"
+  ],
+  "author": "thanan",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "^5.4.2"
+  },
+  "devDependencies": {
+    "protractor-beautiful-reporter": "^1.2.7"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "webdriver-js-cucumber",
+  "version": "1.0.0",
+  "description": "this is sample cucumber webdriver js",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/selenium-cucumber-js/index.js -s ./step-definitions -b firefox"
+  },
+  "author": "thanan",
+  "license": "ISC"
+}
