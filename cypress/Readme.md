@@ -1,9 +1,12 @@
-### Cypress UI test automation
+## Cypress UI test automation
 
-For installing the cypress refer official documenation
+:: TODo...
+Install the `node` and `npm` from official documentation
 
-## Open the cyrpess
+Run the this command to install the cypress ```npm install```(make sure run this command where `package.json` file presents)
+
+### Open the cyrpess
 ``` npm run ./node_modules/.bin/cypress open```
 
-## Run the cypress scripts
+### Run the cypress scripts
 ``` npm run ./node_modules/.bin/cypress run```
