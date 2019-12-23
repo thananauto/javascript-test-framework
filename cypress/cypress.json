@@ -2,5 +2,6 @@
   "projectId": "9i12i3",
   "env" :{
     "application_url" : "http://computer-database.herokuapp.com/computers"
-  }
+  },
+  "reporter": "mochawesome"
 }

@@ -6,13 +6,15 @@
   "dependencies": {
     "cypress": "^3.7.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mochawesome": "^4.1.0"
+  },
   "scripts": {
     "test": "run",
-    "open-cypress" : "./node_modules/.bin/cypress open",
-    "execute-remote" : "./node_modules/.bin/cypress run --record --key bd4c3c42-c68c-43f6-9f7a-789c257fcf34",
-    "execute-local" : "./node_modules/.bin/cypress run"
-    
+    "open-cypress": "./node_modules/.bin/cypress open",
+    "execute-remote": "./node_modules/.bin/cypress run --record --key bd4c3c42-c68c-43f6-9f7a-789c257fcf34",
+    "execute-local": "./node_modules/.bin/cypress run",
+    "exec-report" : "./node_modules/.bin/cypress run --reporter mochawesome"
   },
   "keywords": [
     "cypress"
